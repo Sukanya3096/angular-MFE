@@ -9,7 +9,6 @@ import { RouterModule } from '@angular/router';
   declarations: [],
   imports: [
     CommonModule,
-    BrowserModule,
     RouterModule.forChild([{ path: '', component: TodoComponent }]),
   ],
 })
